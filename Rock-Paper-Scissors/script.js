@@ -2,7 +2,8 @@
 const getUserChoice = userInput =>{
   userInput = userInput.toLowerCase();
   
-  //checking if user choice is 'rock', 'paper', 'scissors' or 'bomb' (which is added as an extra). If not, there'll be an error message printed to the console
+  //checking if user choice is 'rock', 'paper', 'scissors' or 'bomb' (which is added as an extra). 
+//If not, there'll be an error message printed to the console
   if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' || userInput === 'bomb') {
     return userInput;
   } else {
