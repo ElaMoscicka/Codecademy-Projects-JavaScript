@@ -29,7 +29,7 @@ const getActualSleepHours = () =>{
   getSleepHours('Sunday');
 }
 
-//getting ideal sleep hours/day that user prefers, multiplying them by 7 as we need to count all days
+//getting ideal sleep hours per day that user prefers, multiplying them by 7 as we need to count all days
 const getIdealSleepHours = () =>{
   let idealHours = 8;
   return idealHours*7;
