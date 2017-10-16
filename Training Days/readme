@@ -1,2 +1,2 @@
 Creating a messaging program for an athletic event service.
-Main goal of this project was to remove variables from the global scope to the block scope, demonstrating how block level variables work along the way.
+Main goal of this project was to remove variables from the global scope and create them in the block scope, demonstrating how block level variables work along the way
