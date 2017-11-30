@@ -58,7 +58,7 @@ class Movie extends Media{
   constructor(director, title, runTime){
     super(title);
     this._director = director;
-    this._runTome = runTime;
+    this._runTime = runTime;
   }
   
   //creating a getters for director and runTime
